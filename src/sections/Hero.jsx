@@ -26,9 +26,9 @@ const Hero = () => {
     <>
       <section id='hero' className='w-full md:px-[120px] px-10 py-10 flex flex-col md:flex-row justify-center items-center gap-20'>
         <div id='content-box' className='flex flex-col justify-center items-start gap-10'>
-          <h1 data-aos='zoom-in' className='text-2xl text-black font-semibold'>WELCOME TO</h1>
-          <h1 data-aos='zoom-in' className='text-6xl text-black font-bold'>Nail Salon & Spa<br></br>in MILTON<br></br>Massachusetts</h1>
-          <div id='icon-list' data-aos='slide-up' className='flex flex-col justify-center items-start gap-6'>
+          <h1 className='text-2xl text-black font-semibold'>WELCOME TO</h1>
+          <h1 className='text-6xl text-black font-bold'>Nail Salon & Spa<br></br>in MILTON<br></br>Massachusetts</h1>
+          <div id='icon-list' className='flex flex-col justify-center items-start gap-6'>
             <div id='icon-box' className='flex justify-center items-center gap-3'>
               <FaLocationDot className='text-black size-6' />
               <h1 className='text-xl text-gray800 font-semibold'>541 Adams St, Milton, MA 02186</h1>
@@ -37,6 +37,7 @@ const Hero = () => {
               <MdOutlinePhoneAndroid className='text-black size-6' />
               <h1 className='text-xl text-gray800 font-semibold'>+1 617-696-9744</h1>
             </div>
+            {/*
             <div id='icon-box' className='flex justify-center items-center gap-3'>
               <MdEmail className='text-black size-6' />
               <h1 className='text-xl text-gray800 font-semibold'>company@email</h1> 
@@ -44,31 +45,31 @@ const Hero = () => {
             <div id='icon-box' className='flex justify-center items-center gap-3'>
               <FaHeadphones className='text-black size-6' />
               <h1 className='text-xl text-gray800 font-semibold'>customercare@email</h1>
-            </div>
+            </div> */}
           </div>
-          <button data-aos='zoom-in' className='px-10 py-4 rounded-xl border-2 border-black text-black font-semibold text-lg hover:bg-black hover:text-white'>BOOK ONLINE</button>
+          <button className='px-10 py-4 rounded-xl border-2 border-black text-black font-semibold text-lg hover:bg-black hover:text-white'>BOOK ONLINE</button>
         </div>
-        <div data-aos='zoom-in' id='image-box' className='md:w-[50%] w-full'>
-          <img src={heroimg} alt='' className='rounded-xl w-full md:h-[700px] h-[500px]' />
+        <div id='image-box' className='md:w-[50%] w-full'>
+          <img src={heroimg} alt='' className='rounded-xl w-full md:h-[600px] h-[300px]' />
         </div>
       </section>
 
       <section className='grid grid-cols-1 md:grid-cols-3 justify-center items-start w-full md:px-[120px] px-10 py-10 gap-10'>
-        <div data-aos='zoom-in' data-aos-delay='200' className='flex flex-col justify-center items-center gap-4'>
+        <div className='flex flex-col justify-center items-center gap-4'>
           <img src={stockimg} alt='' className='size-16 transform hover:scale-110 transition-transform duration-300 cursor-pointer' />
           <h1 className='text-2xl text-black font-semibold'>NAILS</h1>
           <Link to='nails-pricing' spy={true} offset={-100} smooth={true}>
             <button className='px-10 py-3 bg-black text-white text-md font-semibold rounded-xl hover:bg-themeyellow hover:bg-themelight hover:text-black cursor-pointer'>MORE</button>
           </Link>
         </div>
-        <div data-aos='zoom-in' data-aos-delay='200' className='flex flex-col justify-center items-center gap-4'>
+        <div className='flex flex-col justify-center items-center gap-4'>
           <img src={wax} alt='' className='size-16 transform hover:scale-110 transition-transform duration-300 cursor-pointer' />
           <h1 className='text-2xl text-black font-semibold'>WAXING</h1>
           <Link to='waxing-price' spy={true} offset={-100} smooth={true}>
             <button className='px-10 py-3 bg-black text-white text-md font-semibold rounded-xl hover:bg-themeyellow hover:bg-themelight hover:text-black cursor-pointer'>MORE</button>
           </Link>
         </div>
-        <div data-aos='zoom-in' data-aos-delay='200' className='flex flex-col justify-center items-center gap-4'>
+        <div className='flex flex-col justify-center items-center gap-4'>
           <img src={kids} alt='' className='size-16 transform hover:scale-110 transition-transform duration-300 cursor-pointer' />
           <h1 className='text-2xl text-black font-semibold'>CHILDREN SERVICES</h1>
           <Link to='children-services-pricing' spy={true} offset={-100} smooth={true}>
