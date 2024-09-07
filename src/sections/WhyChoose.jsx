@@ -43,7 +43,7 @@ const WhyChoose = () => {
                     </div>
                     <div id='icon-box' className='flex justify-center items-center gap-3'>
                         <FaAngleDoubleRight className='text-white size-6' />
-                        <h1 className='text-xl text-white font-semibold'>A wide range of services including nails, waxing, and eyelash extensions</h1>
+                        <h1 className='text-xl text-white font-semibold'>A wide range of services including nails and waxing</h1>
                     </div>
                     <div id='icon-box' className='flex justify-center items-center gap-3'>
                         <FaAngleDoubleRight className='text-white size-6' />
