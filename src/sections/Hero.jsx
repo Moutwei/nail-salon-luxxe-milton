@@ -57,7 +57,7 @@ const Hero = () => {
           </a>
         </div>
         <div id='image-box' className='md:w-[50%] w-full'>
-          <img src={heroimg} alt='' className='rounded-xl w-full md:h-[600px] h-[300px]' />
+          <img src={heroimg} alt='' className='rounded-xl w-full md:h-[700px] h-[300px]' />
         </div>
       </section>
 
