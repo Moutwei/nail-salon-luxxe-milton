@@ -37,17 +37,24 @@ const Hero = () => {
               <MdOutlinePhoneAndroid className='text-black size-6' />
               <h1 className='text-xl text-gray800 font-semibold'>+1 617-696-9744</h1>
             </div>
-            {/*
+            
             <div id='icon-box' className='flex justify-center items-center gap-3'>
               <MdEmail className='text-black size-6' />
-              <h1 className='text-xl text-gray800 font-semibold'>company@email</h1> 
+              <h1 className='text-xl text-gray800 font-semibold'>nammynails@gmail.com</h1> 
             </div>
+            {/*
             <div id='icon-box' className='flex justify-center items-center gap-3'>
               <FaHeadphones className='text-black size-6' />
               <h1 className='text-xl text-gray800 font-semibold'>customercare@email</h1>
             </div> */}
           </div>
+          <a
+            href="https://luxxe-milton.square.site/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
           <button className='px-10 py-4 rounded-xl border-2 border-black text-black font-semibold text-lg hover:bg-black hover:text-white'>BOOK ONLINE</button>
+          </a>
         </div>
         <div id='image-box' className='md:w-[50%] w-full'>
           <img src={heroimg} alt='' className='rounded-xl w-full md:h-[600px] h-[300px]' />
