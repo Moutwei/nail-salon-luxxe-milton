@@ -24,7 +24,7 @@ const Hero = () => {
 
   return (
     <>
-      <section id='hero' className='w-full md:px-[120px] px-10 py-10 flex flex-col md:flex-row justify-center items-center gap-20'>
+      <section id='hero' className='bg-backgroundtheme w-full md:px-[120px] px-10 py-10 flex flex-col md:flex-row justify-center items-center gap-20'>
         <div id='content-box' className='flex flex-col justify-center items-start gap-10'>
           <h1 className='text-2xl text-black font-semibold'>WELCOME TO</h1>
           <h1 className='text-6xl text-black font-bold'>Nail Salon & Spa<br></br>in MILTON<br></br>Massachusetts</h1>
@@ -61,7 +61,7 @@ const Hero = () => {
         </div>
       </section>
 
-      <section className='grid grid-cols-1 md:grid-cols-3 justify-center items-start w-full md:px-[120px] px-10 py-10 gap-10'>
+      <section className='bg-backgroundtheme grid grid-cols-1 md:grid-cols-3 justify-center items-start w-full md:px-[120px] px-10 py-10 gap-10'>
         <div className='flex flex-col justify-center items-center gap-4'>
           <img src={stockimg} alt='' className='size-16 transform hover:scale-110 transition-transform duration-300 cursor-pointer' />
           <h1 className='text-2xl text-black font-semibold'>NAILS</h1>

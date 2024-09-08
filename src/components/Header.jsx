@@ -21,14 +21,14 @@ const Header = () => {
   ]
 
   return (
-    <nav className='flex justify-between items-center gap-4 bg-black lg:px-10 px-4 py-6 sticky top-0 z-30 border-[8px] border-themedark'>
+    <nav className='flex justify-between items-center gap-4 bg-themedark lg:px-10 px-4 py-6 sticky top-0 z-30 border-[8px] border-themedark'>
       <div id='logo'>
-        <h1 className='text-white font-bold text-5xl'>Luxxe <span className='italic text-themedark'>Milton</span></h1>
+        <h1 className='text-white font-bold text-5xl'>LUXXE <span className='italic text-backgroundtheme'>MILTON</span></h1>
       </div>
 
       <ul className='lg:flex justify-center items-center gap-6 hidden'>
         {navItems.map(({ link, path }) => (
-          <Link key={path} className='text-white uppercase font-semibold cursor-pointer p-3 rounded-lg hover:bg-themedark hover:text-black' to={path} spy={true} offset={-100} smooth={true}>{link}</Link>
+          <Link key={path} className='text-themedark bg-backgroundtheme uppercase font-semibold cursor-pointer p-3 rounded-lg hover:bg-black hover:text-white' to={path} spy={true} offset={-100} smooth={true}>{link}</Link>
         ))}
       </ul>
 
@@ -50,7 +50,7 @@ const Header = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <button className='bg-themedark px-8 py-3 rounded-full hover:bg-white hover:text-black font-bold mt-3 hidden lg:flex transform hover:scale-110 transition -transform duration300 cursor pointer'>BOOK NOW</button>
+        <button className='bg-backgroundtheme text-themedark px-8 py-3 rounded-full hover:bg-black hover:text-white font-bold mt-3 hidden lg:flex transform hover:scale-110 transition -transform duration300 cursor pointer'>BOOK NOW</button>
       </a>
     </nav>
   )
