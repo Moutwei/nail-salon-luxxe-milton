@@ -26,8 +26,7 @@ const Hero = () => {
     <>
       <section id='hero' className='bg-backgroundtheme w-full md:px-[120px] px-10 py-10 flex flex-col md:flex-row justify-center items-center gap-20'>
         <div id='content-box' className='flex flex-col justify-center items-start gap-10'>
-          <h1 className='text-2xl text-black font-semibold'>WELCOME TO</h1>
-          <h1 className='text-6xl text-black font-bold'>Nail Salon & Spa<br></br>in MILTON<br></br>Massachusetts</h1>
+          <h1 className='font-serif text-6xl text-black font-bold'>Nail Salon & Spa<br></br>in MILTON<br></br>Massachusetts</h1>
           <div id='icon-list' className='flex flex-col justify-center items-start gap-6'>
             <div id='icon-box' className='flex justify-center items-center gap-3'>
               <FaLocationDot className='text-black size-6' />

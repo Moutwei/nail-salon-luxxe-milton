@@ -23,7 +23,7 @@ const Header = () => {
   return (
     <nav className='flex justify-between items-center gap-4 bg-themedark lg:px-10 px-4 py-6 sticky top-0 z-30 border-[8px] border-themedark'>
       <div id='logo'>
-        <h1 className='text-white font-bold text-5xl'>LUXXE <span className='italic text-backgroundtheme'>MILTON</span></h1>
+        <h1 className='font-serif text-white font-bold text-5xl'>LUXXE MILTON</h1>
       </div>
 
       <ul className='lg:flex justify-center items-center gap-6 hidden'>

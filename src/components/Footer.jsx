@@ -20,7 +20,7 @@ const Footer = () => {
   return (
     <>
       <section className='bg-backgroundtheme w-full md:px-20 px-10 md:py-20 py-10 flex flex-col justify-center items-center gap-6 border-[20px'>
-        <h1 className='text-black font-bold text-5xl'>LUXXE <span className='italic text-themedark'>MILTON</span></h1>
+        <h1 className='font-serif text-black font-bold text-5xl'>LUXXE <span className='font-serif italic text-themedark'>MILTON</span></h1>
         <p className='text-lg text-center font-semibold text-slate-600'>
           Are you looking for a reliable nail salon for nail care and spa services? Luxxe Nails & Spa is the ideal place. Come to visit us in Milton, MA 02186 to have the joys when caring for your beauty and see yourself get more and more beautiful with a stylish look!
         </p>
