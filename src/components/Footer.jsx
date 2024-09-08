@@ -36,7 +36,7 @@ const Footer = () => {
           </a>
         </div>
       </section>
-      <div data-aos='slide-right' data-aos-delay='200' id='icon-box' className='bg-themelight p-4 rounded-full hover:bg-black hover:text-white cursor-pointer fixed lg:bottom-12 bottom-6 right-6 lg:right-6'>
+      <div data-aos='slide-right' data-aos-delay='200' id='icon-box' className='bg-themelight text-white p-4 rounded-full hover:bg-black hover:text-white cursor-pointer fixed lg:bottom-12 bottom-6 right-6 lg:right-6'>
         <Link to='hero' spy={true} offset={-100} smooth={true}>
           <FaArrowUp className='size-8' />
         </Link>
