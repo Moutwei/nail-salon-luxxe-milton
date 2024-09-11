@@ -25,20 +25,20 @@ const Hero = () => {
   return (
     <>
       <section id='hero' className='bg-backgroundtheme w-full md:px-[120px] px-10 py-10 flex flex-col md:flex-row justify-center items-center gap-20'>
-        <div id='content-box' className='flex flex-col ml-12 justify-center items-start gap-10'>
-          <h1 className='font-serif text-6xl text-black font-bold'>Nail Salon & Spa<br></br>in MILTON<br></br>Massachusetts</h1>
+        <div id='content-box' className='flex flex-col justify-center items-start gap-10'>
+          <h1 className='font-serif text-5xl text-black font-bold'>Nail Salon & Spa<br></br>in MILTON<br></br>Massachusetts</h1>
           <div id='icon-list' className='flex flex-col justify-center items-start gap-6'>
             <div id='icon-box' className='flex justify-center items-center gap-3'>
-              <FaLocationDot className='text-black size-6' />
+              <FaLocationDot className='text-black size-5' />
               <h1 className='text-xl text-gray800 font-semibold'>541 Adams St, Milton, MA 02186</h1>
             </div>
             <div id='icon-box' className='flex justify-center items-center gap-3'>
-              <MdOutlinePhoneAndroid className='text-black size-6' />
+              <MdOutlinePhoneAndroid className='text-black size-5' />
               <h1 className='text-xl text-gray800 font-semibold'>+1 617-696-9744</h1>
             </div>
             
             <div id='icon-box' className='flex justify-center items-center gap-3'>
-              <MdEmail className='text-black size-6' />
+              <MdEmail className='text-black size-5' />
               <h1 className='text-xl text-gray800 font-semibold'>nammynails@gmail.com</h1> 
             </div>
             {/*
@@ -56,7 +56,7 @@ const Hero = () => {
           </a>
         </div>
         <div id='image-box' className='md:w-[50%] w-full'>
-          <img src={heroimg} alt='' className='rounded-xl w-full md:h-[700px] h-[300px]' />
+          <img src={heroimg} alt='' className='rounded-xl w-full md:h-[600px] h-[300px]' />
         </div>
       </section>
 
