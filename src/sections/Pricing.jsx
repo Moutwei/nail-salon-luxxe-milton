@@ -16,7 +16,7 @@ const Pricing = () => {
   return (
     <>
       <section id='nails-pricing' className='bg-backgroundtheme w-full md:px-20 px-10 md:py-20 py-10 flex flex-col justify-center items-center gap-24'>
-        <h1 className='text-6xl font-bold text-black'>Nails Pricing</h1>
+        <h1 className='text-6xl font-semibold text-black'>Nails Pricing</h1>
         <div className='grid md:grid-cols-3 grid-cols-1 justify-center items-center gap-10 w-[85%]'>
           <div className='flex justify-between items-center gap-6 border-b-2 border-themedark pb-5'>
             <h1 className='text-xl text-gray-900 font-bold'>Regular Manicure</h1>
@@ -102,7 +102,7 @@ const Pricing = () => {
       </section>
 
       <section id='waxing-price' className='w-full md:px-20 px-10 md:py-20 py-10 flex flex-col justify-center items-center gap-24'>
-        <h1 className='text-6xl font-bold text-black'>Wax Pricing</h1>
+        <h1 className='text-6xl font-semibold text-black'>Wax Pricing</h1>
         <div className='grid md:grid-cols-3 grid-cols-1 justify-center items-center gap-10 w-[85%]'>
           <div className='flex justify-between items-center gap-6 border-b-2 border-themedark pb-5'>
             <h1 className='text-xl text-gray-900 font-bold'>Brows</h1>
@@ -164,7 +164,7 @@ const Pricing = () => {
       </section>
 
       <section id='children-services-pricing' className='bg-backgroundtheme w-full md:px-20 px-10 md:py-20 py-10 flex flex-col justify-center items-center gap-24'>
-        <h1 className='text-6xl font-bold text-black'>Children Services Pricing</h1>
+        <h1 className='text-6xl font-semibold text-black'>Children Services Pricing</h1>
         <div className='grid md:grid-cols-2 grid-cols-1 justify-center items-center gap-20 w-[85%]'>
           <div className='flex justify-between items-center gap-6 border-b-2 border-themedark pb-5'>
             <h1 className='text-xl text-gray-900 font-bold'>Kid's Spa Pedicure</h1>
