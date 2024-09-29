@@ -23,7 +23,7 @@ const Header = () => {
   return (
     <nav className='flex justify-between items-center gap-4 bg-themedark lg:px-10 px-4 py-6 sticky top-0 z-30 border-[8px] border-themedark'>
       <div id='logo'>
-        <h1 className='font-serif text-backgroundtheme font-bold text-5xl'>LUXXE <span className='font-serif italic'>MILTON</span></h1>
+        <h1 className='font-serif text-backgroundtheme font-semibold text-5xl'>LUXXE <span className='font-serif italic'>MILTON</span></h1>
       </div>
 
       <ul className='lg:flex justify-center items-center gap-6 hidden'>
@@ -46,8 +46,8 @@ const Header = () => {
         </ul>
       </div>
       <a
-        href="https://luxxe-milton.square.site/"
-        target="_blank"
+        href="https://luxxemilton.glossgenius.com/"
+        target="_self"
         rel="noopener noreferrer"
       >
         <button className='bg-backgroundtheme text-themedark px-8 py-3 rounded-full hover:bg-black hover:text-white font-bold mt-3 hidden lg:flex transform hover:scale-110 transition -transform duration300 cursor pointer'>BOOK NOW</button>

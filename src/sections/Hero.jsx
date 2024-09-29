@@ -36,10 +36,10 @@ const Hero = () => {
               <MdOutlinePhoneAndroid className='text-black size-5' />
               <h1 className='text-xl text-gray800 font-semibold'>+1 617-696-9744</h1>
             </div>
-            
+
             <div id='icon-box' className='flex justify-center items-center gap-3'>
               <MdEmail className='text-black size-5' />
-              <h1 className='text-xl text-gray800 font-semibold'>nammynails@gmail.com</h1> 
+              <h1 className='text-xl text-gray800 font-semibold'>nammynails@gmail.com</h1>
             </div>
             {/*
             <div id='icon-box' className='flex justify-center items-center gap-3'>
@@ -48,15 +48,15 @@ const Hero = () => {
             </div> */}
           </div>
           <a
-            href="https://luxxe-milton.square.site/"
-            target="_blank"
+            href="https://luxxemilton.glossgenius.com/"
+            target="_self"
             rel="noopener noreferrer"
           >
-          <button className='px-10 py-4 rounded-xl border-2 border-black text-black font-semibold text-lg hover:bg-black hover:text-white'>BOOK ONLINE</button>
+            <button className='px-10 py-4 rounded-xl border-2 border-black text-black font-semibold text-lg hover:bg-black hover:text-white'>BOOK ONLINE</button>
           </a>
         </div>
-        <div id='image-box' className='md:w-[50%] w-full'>
-          <img src={heroimg} alt='' className='rounded-xl w-full md:h-[600px] h-[300px]' />
+        <div id='image-box' className='md:w-[30%]'>
+          <img src={heroimg} alt='' className='rounded-xl w-full' />
         </div>
       </section>
 
@@ -79,7 +79,7 @@ const Hero = () => {
           <img src={kids} alt='' className='size-16 transform hover:scale-110 transition-transform duration-300 cursor-pointer' />
           <h1 className='text-2xl text-black font-semibold'>CHILDREN SERVICES</h1>
           <Link to='children-services-pricing' spy={true} offset={-100} smooth={true}>
-          <button className='px-10 py-3 bg-black text-white text-md font-semibold rounded-xl hover:bg-themeyellow hover:bg-themelight hover:text-black cursor-pointer'>MORE</button>
+            <button className='px-10 py-3 bg-black text-white text-md font-semibold rounded-xl hover:bg-themeyellow hover:bg-themelight hover:text-black cursor-pointer'>MORE</button>
           </Link>
         </div>
       </section>

@@ -31,11 +31,11 @@ const WhyChoose = () => {
                     <p className='text-xl text-black font-lg'>SATURDAY 9:30AM - 6:00PM</p>
                 </div>
                 <a
-                        href="https://luxxe-milton.square.site/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                <button className='px-10 py-4 rounded-xl border-2 border-black text-black font-semibold text-lg hover:bg-black hover:text-white mt-6'>BOOK ONLINE</button>
+                    href="https://luxxemilton.glossgenius.com/"
+                    target="_self"
+                    rel="noopener noreferrer"
+                >
+                    <button className='px-10 py-4 rounded-xl border-2 border-black text-black font-semibold text-lg hover:bg-black hover:text-white mt-6'>BOOK ONLINE</button>
                 </a>
             </div>
 
@@ -60,8 +60,8 @@ const WhyChoose = () => {
                         <h1 className='text-xl text-white font-semibold'>Commitment to maintaining a clean, safe, and healthy environment </h1>
                     </div>
                     <a
-                        href="https://luxxe-milton.square.site/"
-                        target="_blank"
+                        href="https://luxxemilton.glossgenius.com/"
+                        target="_self"
                         rel="noopener noreferrer"
                     >
                         <button className='text-black px-10 py-4 bg-white hover:bg-themelight hover:text-black rounded-xl font-semibold'>BOOK NOW</button>
