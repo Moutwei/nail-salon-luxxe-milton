@@ -31,7 +31,7 @@ const WhyChoose = () => {
                     <p className='text-xl text-black font-lg'>SATURDAY 9:30AM - 6:00PM</p>
                 </div>
                 <a
-                    href="https://luxxemilton.glossgenius.com/"
+                    href="https://luxxemilton.glossgenius.com/services"
                     target="_self"
                     rel="noopener noreferrer"
                 >
@@ -60,7 +60,7 @@ const WhyChoose = () => {
                         <h1 className='text-xl text-white font-semibold'>Commitment to maintaining a clean, safe, and healthy environment </h1>
                     </div>
                     <a
-                        href="https://luxxemilton.glossgenius.com/"
+                        href="https://luxxemilton.glossgenius.com/services"
                         target="_self"
                         rel="noopener noreferrer"
                     >

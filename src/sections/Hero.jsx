@@ -48,7 +48,7 @@ const Hero = () => {
             </div> */}
           </div>
           <a
-            href="https://luxxemilton.glossgenius.com/"
+            href="https://luxxemilton.glossgenius.com/services"
             target="_self"
             rel="noopener noreferrer"
           >
