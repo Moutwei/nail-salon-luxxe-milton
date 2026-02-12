@@ -106,7 +106,7 @@ const Pricing = () => {
         <div className='grid md:grid-cols-3 grid-cols-1 justify-center items-center gap-10 w-[85%]'>
           <div className='flex justify-between items-center gap-6 border-b-2 border-themedark pb-5'>
             <h1 className='text-xl text-gray-900 font-bold'>Brows</h1>
-            <h1 className='text-themedark text-xl font-bold'>$12</h1>
+            <h1 className='text-themedark text-xl font-bold'>$14</h1>
           </div>
           <div className='flex justify-between items-center gap-6 border-b-2 border-themedark pb-5'>
             <h1 className='text-xl text-gray-900 font-bold'>Lips</h1>
@@ -114,7 +114,7 @@ const Pricing = () => {
           </div>
           <div className='flex justify-between items-center gap-6 border-b-2 border-themedark pb-5'>
             <h1 className='text-xl text-gray-900 font-bold'>Chin</h1>
-            <h1 className='text-themedark text-xl font-bold'>$10</h1>
+            <h1 className='text-themedark text-xl font-bold'>$12</h1>
           </div>
           <div className='flex justify-between items-center gap-6 border-b-2 border-themedark pb-5'>
             <h1 className='text-xl text-gray-900 font-bold'>Sideburns</h1>
